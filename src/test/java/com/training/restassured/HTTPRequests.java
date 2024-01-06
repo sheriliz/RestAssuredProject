@@ -21,8 +21,6 @@ then() -validation
 */
 
 public class HTTPRequests {
-	
-	
 	int id ;
 	
 	
@@ -39,6 +37,8 @@ public class HTTPRequests {
 			.body("page", equalTo(2))
 			.log().all();
 	}
+	
+	
 	
 	@Test(priority=2)
 	void createUsers()
